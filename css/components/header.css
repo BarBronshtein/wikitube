@@ -1,0 +1,19 @@
+.main-header .logo {
+  font-size: 2.5rem;
+}
+
+.main-header {
+  margin: auto;
+  padding: 20px 0;
+  margin-bottom: 2rem;
+}
+
+.main-header > form {
+  width: 48%;
+  display: flex;
+}
+
+.main-header > form > input {
+  width: 80%;
+  height: 40px;
+}

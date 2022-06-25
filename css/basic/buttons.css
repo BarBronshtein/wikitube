@@ -1,0 +1,14 @@
+.btn {
+  border: none;
+  background-color: var(--secondary-color);
+  padding: 2px;
+  cursor: pointer;
+}
+
+.btn-search {
+  flex: 1;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}

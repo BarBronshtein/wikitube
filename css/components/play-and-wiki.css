@@ -1,0 +1,14 @@
+.play-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.wiki-results > div {
+  margin-bottom: 1rem;
+}
+.wiki-results > div :hover {
+  color: var(--color-dark);
+  opacity: 0.7;
+}

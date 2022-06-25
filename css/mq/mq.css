@@ -1,0 +1,20 @@
+@media screen and (max-width: 780px) {
+  main.wikitube {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .main-layout {
+    max-width: 960px;
+  }
+  main.wikitube.flex {
+    flex-direction: row;
+    align-items: center;
+  }
+  main.wikitube.flex > :first-child {
+    margin-inline-end: 1rem;
+  }
+}
